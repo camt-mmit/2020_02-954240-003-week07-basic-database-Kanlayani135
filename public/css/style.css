@@ -1,0 +1,142 @@
+
+html {
+    font-family: sans-serif;
+    font-size:18px;
+    line-height: 1.3em;
+}
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    margin: px;
+    padding: px;
+    text-align: center;
+    
+}
+main {
+    margin-top: 30x;
+}
+footer{
+    text-align:center;
+}
+
+.blue {
+    color:blue;
+    font-size: 25px;
+   
+}
+.r {
+    text-align: left;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+   
+}
+
+table, td {
+    border: 1px solid black;
+    width: 400px;
+    text-align: left;
+}
+
+th {
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li:first-child {
+    margin-left: 0px;
+    margin-right: 8px;
+}
+
+nav ul li:last-child {
+    margin-left: 8px;
+    margin-right: 0px;
+}
+
+nav ul li:not(:first-child):not(:last-child) {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+nav a:link, nav a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+nav a {
+    padding: 8px;
+}
+
+nav a:hover {
+    background-color: rgb(244, 245, 180);
+}
+
+main {
+    margin-top: 16px;
+}
+
+footer {
+    margin-top: 32px;
+    text-align: center;
+}
+
+
+
+a:link, a:visited {
+    text-decoration: none;
+
+}
+
+table.table2 {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+}
+    table.table2 th {
+        border:0px;
+}
+table.table2 td:first-child{
+    border:0px;
+    text-align: right;
+    padding-right: 0.5em;
+}
+table.table2 td {
+    border: 0px;
+}
+
+.mono {
+    font-family: monospace;
+    font-size: 18;
+}
+.font1 {
+    font-family: sans-serif;
+}
+
+
